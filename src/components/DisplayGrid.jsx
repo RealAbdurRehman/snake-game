@@ -19,7 +19,7 @@ export default function DisplayGrid({ setScore, setScoreIncrement, score }) {
     {row: 15, col: 28}
   ])
   const [snakeDirection, setSnakeDirection] = useState("RIGHT");
-  const [moveSpeed, setMoveSpeed] = useState(10);
+  const [moveSpeed, setMoveSpeed] = useState(100);
 
   const [grid, setGrid] = useState([]);
   const [isFood, setIsFood] = useState(false);
@@ -54,7 +54,7 @@ export default function DisplayGrid({ setScore, setScoreIncrement, score }) {
       { row: 15, col: 28 }
     ])
     setSnakeDirection("RIGHT");
-    setMoveSpeed(10);
+    setMoveSpeed(100);
   
     setHitWall(false);
     setHitSelf(false);
