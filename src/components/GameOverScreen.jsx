@@ -1,4 +1,4 @@
-export default function GameOverScreen({ collidedWithWall, collidedWithSelf, initiateGame }) {
+export default function GameOverScreen({ collidedWithWall, collidedWithSelf, initiateGame, score }) {
     return (
         <section className="game-over">
             <h1>GAME OVER</h1>
@@ -6,6 +6,7 @@ export default function GameOverScreen({ collidedWithWall, collidedWithSelf, ini
                 <h2>You hit {collidedWithWall ? "a wall" : collidedWithSelf ? "yourself" : "something unexpected"}</h2>
                 <div className="exclamation">!</div>
             </div>
+            <h2>Your Score: {score}</h2>
             <button onClick={initiateGame} className="new-game-btn">New Game?</button>
             <p className="tip"><span>Tip:</span> {collidedWithWall ? "Don't hit a wall." : collidedWithSelf ? "Don't hit yourself." : "Get better."}</p>
         </section>
