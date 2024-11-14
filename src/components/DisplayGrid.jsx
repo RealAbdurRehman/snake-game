@@ -250,7 +250,7 @@ export default function DisplayGrid({ setScore, setScoreIncrement, score }) {
           <button className="start-game-btn" onClick={startGameFunc}>Start Game?</button>
         </section>
       }
-      {gameOver && <GameOverScreen collidedWithWall={hitWall} collidedWithSelf={hitSelf} initiateGame={newGame} />}
+      {gameOver && <GameOverScreen collidedWithWall={hitWall} collidedWithSelf={hitSelf} initiateGame={newGame} score={score} />}
     </>
   )
 }
