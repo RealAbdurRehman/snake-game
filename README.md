@@ -25,22 +25,22 @@ A simple Snake Game built with React. The game allows the player to control a sn
 
 ## Screenshots
 
-### 1. **Gameplay**
-This is the main gameplay screen where you control the snake.
-
-<!-- ![Gameplay](./images/gameplay-screenshot.png) -->
-
-### 2. **Start Game Screen**
+### 1. **Start Game Screen**
 This is the screen that shows when you first open the game. Click to start.
 
-<!-- ![Start Game](./images/start-screen.png) -->
+![Demo](https://cloud-3uh3mfh67-hack-club-bot.vercel.app/0start.png)
+
+### 2. **Gameplay**
+This is the main gameplay screen where you control the snake.
+
+![Demo](https://cloud-olygakl7h-hack-club-bot.vercel.app/0game.png)
 
 ### 3. **Death Screen 1**
 The game over screen after the player dies (first instance).
 
-<!-- ![Death Screen 1](./images/death-screen-1.png) -->
+![Demo](https://cloud-dpwqft5xg-hack-club-bot.vercel.app/0death1.png)
 
 ### 4. **Death Screen 2**
 Another variation of the death screen, showing the final score.
 
-<!-- ![Death Screen 2](./images/death-screen-2.png) -->
+![Demo](https://cloud-edwhon0b3-hack-club-bot.vercel.app/0death2.png)
