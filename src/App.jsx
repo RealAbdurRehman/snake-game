@@ -8,7 +8,7 @@ export default function App() {
   
   return (
     <main>
-      <DisplayGrid setScore={setScore} setScoreIncrement={setScoreIncrement} />
+      <DisplayGrid setScore={setScore} setScoreIncrement={setScoreIncrement} score={score} />
       <GameStatsAndSettings score={score} scoreIncrement={scoreIncrement} />
     </main>
   )
