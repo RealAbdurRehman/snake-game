@@ -246,7 +246,7 @@ export default function DisplayGrid({ setScore, setScoreIncrement, score }) {
         </div> 
       : 
         <section className="start-game-section">
-          <h2 className="start-game">Click <span>"Start Game"</span> to start a game!</h2>
+          <h2 className="start-game">Click <span>"Start Game" </span>to start a game!</h2>
           <button className="start-game-btn" onClick={startGameFunc}>Start Game?</button>
         </section>
       }
