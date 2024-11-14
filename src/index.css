@@ -310,17 +310,25 @@ button:active {
 }
 
 .game-over h2 {
-    margin-top: -75px;
+    margin-top: -30px;
     color: var(--red);
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     font-family: "Pixelify Sans", "Micro 5", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .game-over-reason {
+    margin-top: -60px;
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+
+.game-over-reason h2 {
+    color: var(--red);
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Pixelify Sans", "Micro 5", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .exclamation {
